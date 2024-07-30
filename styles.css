@@ -221,6 +221,75 @@ th {
 }
 
 
+/* About Us Page Styles */
+.about-us {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+.about-us h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.history, .mission-values, .team-leadership {
+    margin-bottom: 40px;
+}
+
+.history h2, .mission-values h2, .team-leadership h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.history p, .mission-values p, .mission-values ul, .team-leadership p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.mission-values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mission-values ul li {
+    margin-bottom: 10px;
+}
+
+.team-leadership {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 300px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.team-member p {
+    color: #666;
+    font-size: 0.9em;
+}
 
 
 
